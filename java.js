@@ -81,7 +81,7 @@
 
             const discount = convertInt * 15/100;
             
-            collElementsIds.innerText = discount;
+            collElementsIds.innerText = parseInt(discount);
 
 
  
