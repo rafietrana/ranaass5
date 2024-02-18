@@ -7,12 +7,16 @@
 
  for (const iterator of collBtn) {
            iterator.addEventListener('click', function(event){
+
+            
                  const value = event.target.classList.add('bg-green-500', 'text-white');
 
                 //  sum and redus area start
                  count ++;
                  redius --;
+                 
 
+               
                  
 
                  setInnerTextById("sums", count);
@@ -86,6 +90,26 @@
 
  
       }
+
+
+
+    else if(collInputsValue === "Couple 20"){
+            const collElementsIds = document.getElementById('grand');
+
+            const innerText  = collElementsIds.innerText;
+            const convertInt = parseInt(innerText);
+            
+
+
+            const discount = convertInt * 20/100;
+            
+            collElementsIds.innerText = parseInt(discount);
+
+
+ 
+      }
+
+
       else{
             alert('this coupon is wrong');
       }
