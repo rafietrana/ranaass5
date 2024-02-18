@@ -187,7 +187,7 @@
                 </div>
 
                 <div class="bg-green-200 p-5 rounded-lg">
-                  <div><span id="low-count">8</span>Seant Left</div>
+                  <div><span id="low-count">40</span>Seant Left</div>
                 </div>
               </div>
 
@@ -337,7 +337,24 @@
                                         <input class="outline-none border w-full  p-5 mt-1" type="text" placeholder="Enter Your Name">
                                     </div>
    
-                                       <button disabled class="disabled: text-2xl bg-green-400 text-white w-full raleway-normal font-semibold py-4 shadow-md"> Next</button>
+                                       <button onclick="my_modal_5.showModal()" class="disabled: text-2xl bg-green-400 text-white w-full raleway-normal font-semibold py-4 shadow-md"> Next</button>
+                                       
+                                        <!-- model Section start -->
+                                      <!-- Open the modal using ID.showModal() method -->
+                                      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                                        <div class="modal-box flex justify-center items-center flex-col">
+                                          <img src="images/success.png" alt="">
+                                          <p class="py-4 text-center">Thank you for Booking Our Bus Seats. 
+                                            We are working hard to find the best service and deals for you</p>
+                                          <div class="modal-action">
+                                            <form method="dialog">
+                                              <!-- if there is a button in form, it will close the modal -->
+                                              <button class=" bg-green-500 rounded-lg p-4  text-white">Continue</button>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </dialog>
+                                        <!-- model section end -->
    
                                 </div>
                       </div>

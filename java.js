@@ -1,7 +1,7 @@
  const collBtn = document.getElementById('buttons').querySelectorAll('button');
  
  let count = 0;
- let redius = 8;
+ let redius = 40;
  let priceSum = 0;
 
 
@@ -144,4 +144,8 @@
       }
       
  }
+
+
+
+ 
  
