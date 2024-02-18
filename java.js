@@ -10,16 +10,21 @@
 
             // validation area start
                
-
+         const collParend =   getInnerTextById('sums');
+         
+         if(collParend >= 4){
+            alert('Maximam sit Booking limit is 4');
+            location.reload();
+         }
             
 
 
 
-
+            const value = event.target.classList.add('bg-green-500', 'text-white');
+            const values = event.target.setAttribute("disabled", "true");
 
             // validation area end
-                 const value = event.target.classList.add('bg-green-500', 'text-white');
-                 const values = event.target.setAttribute("disabled", "true");
+
 
 
                 //  sum and redus area start
