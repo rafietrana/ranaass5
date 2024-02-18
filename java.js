@@ -16,8 +16,10 @@
 
                  setInnerTextById("sums", count);
                 setInnerTextById('low-count', redius);
-                // sum and radus area end
 
+
+                // sum and radus area end
+                    
 
 
                 // append chaild area start
