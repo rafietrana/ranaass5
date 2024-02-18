@@ -7,6 +7,17 @@
              return converParseInt;
  }
 
+
+//  find ValueTextById 
+function getValueTextById (idds){
+   const collIdds = document.getElementById(idds);
+   const innerValue = collIdds.value;
+   const convert = parseInt(innerValue);
+   console.log(convert);
+   return convert;
+
+}
+
 //  setInnerTextBy Id
 
 function setInnerTextById(elementIds, value){

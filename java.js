@@ -58,14 +58,37 @@
 
              const collGrandParent = document.getElementById('grand');
 
-             collGrandParent.innerText = updateValue;
+               const stor =   collGrandParent.innerText = updateValue;
              
-
-
-
-
-                 
-                 
            })
+ }
+
+
+ function btnClick(){
+      const collInputs  =document.getElementById('inputs');
+      const collInputsValue = collInputs.value;
+        
+
+
+
+      if(collInputsValue === "NEW15"){
+            const collElementsIds = document.getElementById('grand');
+
+            const innerText  = collElementsIds.innerText;
+            const convertInt = parseInt(innerText);
+            
+
+
+            const discount = convertInt * 15/100;
+            
+            collElementsIds.innerText = discount;
+
+
+ 
+      }
+      else{
+            alert('this coupon is wrong');
+      }
+      
  }
  
