@@ -8,8 +8,19 @@
  for (const iterator of collBtn) {
            iterator.addEventListener('click', function(event){
 
+            // validation area start
+               
+
             
+
+
+
+
+
+            // validation area end
                  const value = event.target.classList.add('bg-green-500', 'text-white');
+                 const values = event.target.setAttribute("disabled", "true");
+
 
                 //  sum and redus area start
                  count ++;
@@ -88,12 +99,16 @@
             collElementsIds.innerText = parseInt(discount);
 
 
+
+            const collParentsId = document.getElementById('parents-id');
+
+            collParentsId.classList.add('hidden');
  
       }
 
 
 
-    else if(collInputsValue === "Couple 20"){
+    else if(collInputsValue === "Couple 2.0"){
             const collElementsIds = document.getElementById('grand');
 
             const innerText  = collElementsIds.innerText;
@@ -104,6 +119,12 @@
             const discount = convertInt * 20/100;
             
             collElementsIds.innerText = parseInt(discount);
+
+            
+            const collParentsId = document.getElementById('parents-id');
+
+            collParentsId.classList.add('hidden');
+
 
 
  
