@@ -18,5 +18,7 @@ function setInnerTextById(elementIds, value){
  function getInnerValueNoConvert(ids){
     const collIds =  document.getElementById(ids);
     const innerTaxtFind = collIds.innerText;
+    console.log(innerTaxtFind);
     return innerTaxtFind;
+
  }
