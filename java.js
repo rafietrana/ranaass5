@@ -100,8 +100,9 @@
 
 
             const discount = convertInt * 15/100;
-            
-            collElementsIds.innerText = parseInt(discount);
+
+            const updateValuese =convertInt - discount;
+            collElementsIds.innerText = parseInt(updateValuese);
 
 
 
@@ -116,14 +117,16 @@
     else if(collInputsValue === "Couple 2.0"){
             const collElementsIds = document.getElementById('grand');
 
-            const innerText  = collElementsIds.innerText;
-            const convertInt = parseInt(innerText);
+            const innerTexts  = collElementsIds.innerText;
+            const convertInt = parseInt(innerTexts);
+
+           
             
-
-
             const discount = convertInt * 20/100;
+
+            const updateValuesed =convertInt - discount;
             
-            collElementsIds.innerText = parseInt(discount);
+            collElementsIds.innerText = parseInt(updateValuesed);
 
             
             const collParentsId = document.getElementById('parents-id');
