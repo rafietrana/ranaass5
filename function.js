@@ -2,9 +2,9 @@
  function getInnerTextById(elementId){
              const collElementId = document.getElementById(elementId);
              const innerTexts = collElementId.innerText;
-             const converParseInt =  parseInt(innerTexts);
+             const converParse =  parseFloat(innerTexts);
              
-             return converParseInt;
+             return converParse;
  }
 
 
@@ -12,7 +12,7 @@
 function getValueTextById (idds){
    const collIdds = document.getElementById(idds);
    const innerValue = collIdds.value;
-   const convert = parseInt(innerValue);
+   const convert = parseFloat(innerValue);
    console.log(convert);
    return convert;
 

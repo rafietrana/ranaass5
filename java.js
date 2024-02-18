@@ -100,14 +100,14 @@
             const collElementsIds = document.getElementById('grand');
 
             const innerText  = collElementsIds.innerText;
-            const convertInt = parseInt(innerText);
+            const convertInt = parseFloat(innerText);
             
 
 
             const discount = convertInt * 15/100;
 
             const updateValuese =convertInt - discount;
-            collElementsIds.innerText = parseInt(updateValuese);
+            collElementsIds.innerText = parseFloat(updateValuese);
 
 
 
@@ -123,7 +123,7 @@
             const collElementsIds = document.getElementById('grand');
 
             const innerTexts  = collElementsIds.innerText;
-            const convertInt = parseInt(innerTexts);
+            const convertInt = parseFloat(innerTexts);
 
            
             
@@ -131,7 +131,7 @@
 
             const updateValuesed =convertInt - discount;
             
-            collElementsIds.innerText = parseInt(updateValuesed);
+            collElementsIds.innerText = parseFloat(updateValuesed);
 
             
             const collParentsId = document.getElementById('parents-id');
