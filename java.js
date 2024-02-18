@@ -2,6 +2,7 @@
  
  let count = 0;
  let redius = 8;
+ let priceSum = 0;
 
 
  for (const iterator of collBtn) {
@@ -40,6 +41,25 @@
 
 
                 // append chaild area start
+
+
+
+            //     total price and grand total price set area
+
+              priceSum = priceSum + 550;
+             const findTotalInner =  getInnerTextById('total');
+             const updateValue = priceSum + findTotalInner;
+
+
+             const collParent = document.getElementById('total');
+
+             collParent.innerText = updateValue;
+
+
+             const collGrandParent = document.getElementById('grand');
+
+             collGrandParent.innerText = updateValue;
+             
 
 
 

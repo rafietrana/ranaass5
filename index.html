@@ -59,11 +59,12 @@
             Yes, you can run unit tests and view the results directly within the
             app. The integrated testing features allow for a streamlined .
           </p>
-          <button
-            class="raleway-bold text-2xl bg-green-500 text-white py-3 px-4 rounded-lg"
-          >
-            Buy Now
-          </button>
+              <button
+              class="raleway-bold text-2xl bg-green-500 text-white py-3 px-4 rounded-lg"
+            >
+               <a href=" #sp">Buy Now</a>
+            </button>
+    
         </div>
       </section>
       <section
@@ -230,7 +231,7 @@
       <!-- ph section end -->
 
       <!-- last section start -->
-      <section class="bg-gray-100 py-5 ">
+      <section id="sp" class="bg-gray-100 py-5 ">
              <div class="w-10/12 mx-auto bg-white border flex  gap-5">
 
                       <div class=" w-7/12">
@@ -272,13 +273,13 @@
                                        </div>
 
                                        <hr class="mt-10">
-                                          <div class="text-2xl">Total Price : <span>0</span></div>
+                                          <div class="text-2xl">Total Price : <span id="total">0</span></div>
                                       <div class="mt-5">
                                           <input class="p-4" type="text" placeholder="Have any coupon">
                                           <button class="btn bg-green-400 text-white">Apply</button>
                                       </div>
 
-                                      <div class="text-2xl mt-5">Grand Total : <span>0</span></div>
+                                      <div class="text-2xl mt-5">Grand Total : <span id="grand">0</span></div>
 
                                 </div>
                                 <div class=" m-5 p-10 space-y-5">
@@ -304,7 +305,7 @@
                                         <input class="outline-none border w-full  p-5 mt-1" type="text" placeholder="Enter Your Name">
                                     </div>
    
-                                       <button class="text-2xl bg-green-400 text-white w-full raleway-normal font-semibold py-4 shadow-md"> Next</button>
+                                       <button class="disabled: text-2xl bg-green-400 text-white w-full raleway-normal font-semibold py-4 shadow-md"> Next</button>
    
                                 </div>
                       </div>
