@@ -14,7 +14,8 @@
          
          if(collParend >= 4){
             alert('Maximam sit Booking limit is 4');
-            location.reload();
+            // location.reload();
+            return;
          }
             
 
