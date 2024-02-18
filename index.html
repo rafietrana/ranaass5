@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="bg-green-200 p-5 rounded-lg">
-                  <div><span>40</span>Seant Left</div>
+                  <div><span id="low-count">8</span>Seant Left</div>
                 </div>
               </div>
 
@@ -238,47 +238,17 @@
  
 
                             <div class="flex-none m-10">
-                                 <div class="grid grid-cols-4 gap-5">
-                                    <button class="btns bg-gray-100 ">A1</button>
-                                    <button class="btns bg-gray-100 py-5">A2</button>
-                                    <button class="btns bg-gray-100 py-5">A3</button>
-                                    <button class="btns bg-gray-100 py-5">A4</button>
-                                    <button class="btns bg-gray-100 py-5">A5</button>
-                                    <button class="btns bg-gray-100 py-5">A6</button>
-                                    <button class="btns bg-gray-100 py-5">A7</button>
-                                    <button class="btns bg-gray-100 py-5">A8</button>
-                                    <button class="btns bg-gray-100 py-5">A9</button>
-                                    <button class="btns bg-gray-100 py-5">A10</button>
-                                    <button class="btns bg-gray-100 py-5">A11</button>
-                                    <button class="btns bg-gray-100 py-5">A12</button>
-                                    <button class="btns bg-gray-100 py-5">A13</button>
-                                    <button class="btns bg-gray-100 py-5">A14</button>
-                                    <button class="btns bg-gray-100 py-5">A15</button>
-                                    <button class="btns bg-gray-100 py-5">A16</button>
-                                    <button class="btns bg-gray-100 py-5">A17</button>
-                                    <button class="btns bg-gray-100 py-5">A18</button>
-                                    <button class="btns bg-gray-100 py-5">A19</button>
-                                    <button class="btns bg-gray-100 py-5">A20</button>
-                                    <button class="btns bg-gray-100 py-5">A21</button>
-                                    <button class="btns bg-gray-100 py-5">A22</button>
-                                    <button class="btns bg-gray-100 py-5">A23</button>
-                                    <button class="btns bg-gray-100 py-5">A24</button>
-                                    <button class="btns bg-gray-100 py-5">A25</button>
-                                    <button class="btns bg-gray-100 py-5">A26</button>
-                                    <button class="btns bg-gray-100 py-5">A27</button>
-                                    <button class="btns bg-gray-100 py-5">A28</button>
-                                    <button class="btns bg-gray-100 py-5">A29</button>
-                                    <button class="btns bg-gray-100 py-5">A30</button>
-                                    <button class="btns bg-gray-100 py-5">A31</button>
-                                    <button class="btns bg-gray-100 py-5">A32</button>
-                                    <button class="btns bg-gray-100 py-5">A33</button>
-                                    <button class="btns bg-gray-100 py-5">A34</button>
-                                    <button class="btns bg-gray-100 py-5">A35</button>
-                                    <button class="btns bg-gray-100 py-5">A36</button>
-                                    <button class="btns bg-gray-100 py-5">A37</button>
-                                    <button class="btns bg-gray-100 py-5">A38</button>
-                                    <button class="btns bg-gray-100 py-5">A39</button>
-                                    <button class="btns bg-gray-100 py-5">A40</button>
+                                 <div id="buttons" class="grid grid-cols-4 gap-5">
+                                    <button  id="A1" class="btns rana1  bg-gray-100 py-5 "> A1 </button>
+                                    <button  id="A2" class="btns rana2  bg-gray-100 py-5 "> A2 </button>
+                                    <button  id="A3" class="btns rana3  bg-gray-100 py-5 "> A3 </button>
+                                    <button  id="A4" class="btns rana4  bg-gray-100 py-5 "> A4 </button>
+                                    <button  id="A5" class="btns rana5  bg-gray-100 py-5 "> A5 </button>
+                                    <button  id="A6" class="btns rana6  bg-gray-100 py-5 "> A6 </button>
+                                    <button  id="A7" class="btns rana7  bg-gray-100 py-5 "> A7 </button>
+                                    <button  id="A8" class="btns rana8  bg-gray-100 py-5 "> A8 </button>
+ 
+ 
                                  </div>
                             </div>
 
@@ -292,7 +262,7 @@
                       <div class="border w-6/12">
                                 <div class="bg-gray-100 m-5 p-10">
                                        <div class="grid grid-cols-3 gap-5 justify-center">
-                                           <div>Seat</div>
+                                           <div>Seat <sup id="sums" class="bg-green-500 text-white p-2 rounded-lg">0</sup></div>
                                            <div>Class</div>
                                            <div>Price</div>
                                        </div>
@@ -343,5 +313,8 @@
       </section>
       <!-- last section end -->
     </main>
+        <script src="java.js"></script>
+        <script src="function.js"></script>
   </body>
+ 
 </html>
