@@ -9,6 +9,10 @@
            iterator.addEventListener('click', function(event){
 
             // validation area start
+            if(count > -1){
+                const ide =document.getElementById('disableds');
+                ide.removeAttribute("disabled", "false")
+            }
                
          const collParend =   getInnerTextById('sums');
          
