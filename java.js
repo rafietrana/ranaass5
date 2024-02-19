@@ -119,7 +119,7 @@
 
 
 
-    else if(collInputsValue === "Couple 2.0"){
+    else if(collInputsValue === "Couple 20"){
             const collElementsIds = document.getElementById('grand');
 
             const innerTexts  = collElementsIds.innerText;
